@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/
+*.bin
+*.npy
+
+# Model checkpoints and run outputs
+runs/*
+!runs/.gitkeep
+
+# Secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

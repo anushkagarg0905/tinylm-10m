@@ -1,0 +1,22 @@
+{
+    "model_name": "TinyLM-10M",
+    "architecture": "decoder_only_transformer",
+
+    "n_layers": 12,
+    "d_model": 256,
+    "n_heads": 8,
+    "head_dim": 32,
+
+    "vocab_size": 4096,
+    "context_length": 256,
+
+    "mlp_type": "gelu",
+    "d_ff": 1024,
+
+    "normalization": "pre_layernorm",
+    "position_embedding": "learned",
+    "weight_tying": true,
+
+    "dropout": 0.0,
+    "precision": "float32"
+}
